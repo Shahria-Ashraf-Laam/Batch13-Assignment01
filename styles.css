@@ -35,3 +35,169 @@ nav .menu a {
   text-decoration: none;
   color: #000000;
 }
+
+.top-btn {
+  background-color: #30B868;
+  width: 164px;
+  height: 44px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.banner-btn .first-btn {
+  background-color: #30B868;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  width: auto;
+  height: 52px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.banner-btn .second-btn {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgb(255, 255, 255, 0.6);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 200px;
+  height: 52px;
+  cursor: pointer;
+}
+
+#banner {
+
+  background-image: url(Image/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 90vh;
+  background-position: center;
+
+}
+
+#banner .overlay {
+  position: absolute;
+  background: rgb(7, 25, 44, 0.78);
+  z-index: 1;
+}
+
+#banner .banner-content {
+  padding: 160px 0 120px;
+  text-align: center;
+  color: #fff;
+}
+
+#banner .banner-content .badge {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #30B868;
+  border-radius: 90px;
+  line-height: 19px;
+  margin-bottom: 24px;
+  padding: 6px 14px;
+  background-color: rgb(255, 255, 255, 1);
+  gap: 6px;
+  align-items: center;
+}
+
+#banner .banner-content h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.banner-content h1 span {
+  color: #30b868;
+}
+
+.banner-content p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  line-height: 24px;
+}
+
+#features .features-container{
+    text-align: center;
+    padding: 0 120px;
+    max-width: 1600px;
+    background-color: #f8fafc;
+}
+
+#features .features-container .features-heading h1{
+    padding-top: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+#features .features-container .features-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    color:#627382 ;
+}
+
+#features .features-container .features-box{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+    padding: 80px 120px;
+}
+
+.features-box .features-card{
+    padding: 30px;
+    max-width:267px ;
+    box-shadow: 0 6px 50px 0 #75757553;
+}
+
+.features-card .icon{
+    justify-content: center;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    margin: 0 auto 16px;
+    display: flex;
+}
+
+.features-card .icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.features-card h3{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 20px ;
+}
+
+.features-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+
+}
