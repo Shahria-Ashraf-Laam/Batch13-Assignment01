@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'inter', sans-serif;
+}
+
+.logo img {
+  width: 139px;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  max-width: 1600px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 20px;
+}
+
+nav .menu {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+}
+
+nav .menu a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+}
